@@ -1,0 +1,119 @@
+@import "https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap";
+
+html {
+  font-size: 16px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+  background-color: #98a6bd;
+}
+.container {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+section {
+  display: grid;
+  grid-template-columns: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  margin: 0 1rem;
+  max-width: 600px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.container1 * {
+  background-color: hsl(204, 43%, 93%);
+  padding: 10px;
+}
+.container1 {
+  padding: 1rem;
+  background-color: hsl(204, 43%, 93%);
+}
+.container1 h2 {
+  font-size: 1.2rem;
+  color: #2ab2af;
+  font-style: bold;
+}
+.container1 h3 {
+  font-size: 1rem;
+  color: #c0df34;
+}
+.container1 p {
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+.container2 * {
+  background-color: hsl(179, 62%, 43%);
+  padding: 0.5rem;
+}
+.container2 {
+  background-color: hsl(179, 62%, 43%);
+  padding: 1rem;
+  padding-bottom: 1rem;
+}
+.container2 h2 {
+  font-size: 1.2rem;
+  color: hsl(204, 43%, 93%);
+  font-style: bold;
+  padding: 0 0 0 0.5rem;
+}
+.container2 p {
+  font-size: 1rem;
+  color: hsl(204, 43%, 93%);
+}
+.container2 p span {
+  font-size: 3rem;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+.button {
+  display: block;
+  text-align: center;
+  background-color: #c0df34;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  color: hsl(204, 43%, 93%);
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
+.container3 {
+  padding: 1rem;
+  color: hsl(204, 43%, 93%);
+  background-color: #55c3c1;
+}
+.container3 * {
+  background-color: #55c3c1;
+}
+.container h2 {
+  padding-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.container3 li {
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
+@media only screen and (min-width: 425px) {
+  section {
+    grid-template-columns: 1fr 1fr;
+  }
+  .container1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .container2,
+  .container3 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+footer {
+  margin: 2rem;
+}
