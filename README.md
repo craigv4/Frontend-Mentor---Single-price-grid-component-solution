@@ -31,9 +31,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](/Projects/Project%201/single-price-grid/new/Previews/Desktop%20Design.jpg)
+![](https://github.com/craigv4/Frontend-Mentor---Single-price-grid-component-solution/blob/main/Desktop%20Design.jpg)
 
-![](/Projects/Project%201/single-price-grid/new/Previews/Mobile%20Design.jpg)
+![](https://github.com/craigv4/Frontend-Mentor---Single-price-grid-component-solution/blob/main/Mobile%20Design.jpg)
 
 ## My process
 
