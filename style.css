@@ -8,7 +8,6 @@ html {
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-  font-size: 16px;
   font-family: "Karla", sans-serif;
   background-color: #98a6bd;
 }
@@ -114,6 +113,4 @@ section {
     grid-template-columns: 1fr 1fr;
   }
 }
-footer {
-  margin: 2rem;
-}
+
